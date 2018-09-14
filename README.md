@@ -11,9 +11,11 @@ Author(s): Mohammad Ismail
 ```
 
 ### To Run Server
-Create a .env file with the following variables
+Create a .env file with the following variables Keep in mind ADMIN_TOKEN/STUDENT_TOKEN are just temporary environment variables and will not be used going onto prod. It is in effect for the mock authentication system prior to implementation with Ryerson SCS.
 ```
 MASTER_TOKEN=mastertoken
+ADMIN_TOKEN=admintoken
+STUDENT_TOKEN=studenttoken
 MONGO_URL=mongodb://localhost:27017/exambank
 SALT=3^dMjq&7YDW!MAjF94bDYeamy6Nkrwj
 ```
