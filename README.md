@@ -12,6 +12,8 @@ Author(s): Mohammad Ismail
 
 ### To Run Server
 Create a .env file with the following variables
+```
 MASTER_TOKEN=mastertoken
 MONGO_URL=mongodb://localhost:27017/exambank
 SALT=3^dMjq&7YDW!MAjF94bDYeamy6Nkrwj
+```
