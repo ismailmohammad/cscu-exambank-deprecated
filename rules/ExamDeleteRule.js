@@ -24,7 +24,7 @@ class ExamDeleteRule extends Rule {
                         }
                     })
             } else {
-                reject("ForbiddenByExamUpdateRule");
+                reject("ForbiddenByExamDeleteRule");
             }
         })
     }
