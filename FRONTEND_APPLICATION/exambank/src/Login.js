@@ -51,7 +51,7 @@ class App extends Component {
 
   render() {
     return (
-      <div id="cas">
+      <div id="scs-auth">
         <div id="compatibility">
             <p><strong>Your browser version is not supported by Ryerson University.</strong></p>
             <p>Please update or adjust Compatibility View settings for an optimal experience.</p>
