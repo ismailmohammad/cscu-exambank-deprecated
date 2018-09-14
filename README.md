@@ -17,3 +17,9 @@ MASTER_TOKEN=mastertoken
 MONGO_URL=mongodb://localhost:27017/exambank
 SALT=3^dMjq&7YDW!MAjF94bDYeamy6Nkrwj
 ```
+Then run the command `npm start` from your terminal on the root directory of this repo. 
+
+### To Run ReactJS Front-End Application
+cd into FRONTEND_APPLICATION/exambank
+Run `npm install` if you haven't already done so. 
+Run `npm start` to start the React webapp
