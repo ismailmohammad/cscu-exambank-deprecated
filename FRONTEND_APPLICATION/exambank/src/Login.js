@@ -92,7 +92,7 @@ class App extends Component {
             </div>
             <footer>
                 <div id="footer-message">
-                    <div>Before entering your Ryerson SCS username and password, verify that the URL for this page begins with <strong>"https://scs.ryerson.ca/"</strong>.</div>
+                    <div>Before entering your Ryerson SCS username and password, verify that the URL for this page begins with <strong>"https://exambank.scs.ryerson.ca/"</strong>.</div>
                 </div>
             </footer>
         </div>
