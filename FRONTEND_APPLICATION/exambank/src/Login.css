@@ -1,0 +1,273 @@
+body {
+    background-color: #e9e9e9;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
+#cas #compatibility {
+    display: none;
+    font-family: 'Replica-Regular', Arial, sans-serif;
+    width: 500px;
+    background-color: #fadc00;
+    margin: auto;
+    color: #000;
+    border-right: 1px solid #c0c0c0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.1em;
+}
+
+#cas #compatibility p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#cas #compatibility p strong {
+    font-family: 'Replica-Bold', Arial, sans-serif;
+    background-color: #fadc00;
+    font-size: 1.55em;
+    line-height: 1.3em;
+}
+
+#cas #container {
+    width: 500px;
+    background-color: #fff;
+    margin: auto;
+    padding: 80px 0 120px 0;
+    color: #333;
+    border-radius: 0 0 0.5em 0.5em;
+    border-right: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+#cas #container a {
+    color: #2d78af;
+    text-decoration: none;
+}
+
+#cas #container a:hover {
+    text-decoration: underline;
+}
+
+#cas #container > * {
+    width: 320px;
+    margin: auto;
+}
+
+#cas #casEnvMsg {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #ff0000;
+    text-align: center;
+}
+
+#cas #content {
+    margin-top: 20px;
+}
+
+#cas #login .input-group-addon {
+    padding: 0 3px 0 10px;
+    font-size: 12px;
+}
+
+#cas .form-control {
+    border-radius: 0;
+    display: block;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    font-size: 14px;
+    width: 90%;
+    height: 34px;
+    margin-right: 10px;
+}
+
+#cas .form-control::placeholder {
+    color: #767676;
+}
+
+#cas .login-form {
+    background-color: #f1f1f1;
+    padding: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#cas .login-form section {
+    margin-bottom: 10px;
+}
+
+#cas .login-form section:last-child {
+    margin-bottom: 0;
+}
+
+#cas .login-form .formLabel {
+    position: absolute !important; 
+    clip: rect(1px, 1px, 1px, 1px); 
+}
+
+#cas .login-form #token {
+    width: 120px;
+}
+
+#cas .login-form #security-key-image-container {
+    text-align: center;
+}
+
+#cas .login-form.u2f input {
+    margin-top: 10px;
+}
+
+#cas .rememberMe {
+    margin-top: 30px;
+}
+
+#cas .rememberMe #remembermeSpan {
+    font-size: 0.8em;
+    height: 16px;
+    vertical-align: middle;    
+}
+
+#cas .rememberMe #remembermeLabel {
+    padding-left: 22px;
+    padding-bottom: 10px;    
+    float: left;
+    margin-top: -16px;
+    vertical-align: top;
+}
+
+#cas .rememberMe #trusted-device-hint {
+    padding-top: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#cas .btn {
+    background-color: #004c9b;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    height: 37px !important;
+    text-decoration: none;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+#cas .btn-login {
+    width: 96px !important;
+}
+
+#cas .btn-change-password {
+    width: 185px !important;
+}
+
+#cas .btn-try-again {
+    width: 100px !important;
+}
+
+#cas .loginBottom {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#cas .loginBottom ul {
+    margin-left: 0;
+    padding-left: 22px;
+}
+
+#cas .loginBottom ul li {
+    list-style-type: square;
+    padding-top: 6px;
+}
+
+#cas #footer-message {
+    font-size: 11px;
+    color: #767676;
+    padding-left: 32px;
+    margin-top: 30px;
+    background: #fff url("./media/icon-alert.png") no-repeat left 10px;
+}
+
+#cas #footer-message div {
+    padding-left: 10px;
+    border-left: 1px solid #dedede;
+}
+
+#cas #passwordManagementForm #passwordExpired p:last-child {
+    margin-bottom: 0;
+}
+
+#cas #passwordManagementForm #passwordRequirements {
+    font-size:.85em;
+    color: #444;
+    padding: 0 10px;
+}
+
+#cas #passwordManagementForm #passwordRequirements ul {
+    padding-left:17px;
+}
+
+#cas #passwordManagementForm #passwordRequirements ul li {
+    margin:5px 0;
+}
+
+#cas .errors h2, #cas .success h2 {font-size:18px; font-weight:bold; margin:10px 18px 0 0; padding:0;}
+#cas .success h2 {color:#008 !important;}
+#cas .info form, #cas .errors form, #cas .success form {margin-bottom:10px; margin-top:40px;}
+#cas .errors h2 {color:#b00 !important;}
+#cas .success h2 {color:#060 !important;}
+
+#cas div.alert.alert-danger {
+    color: #d21033;
+    background-color: #fed;
+    border-color: #d21033;
+}
+
+#cas div.alert.alert-info {
+    color: #008;
+    background-color: #eff;
+    border-color: #008;
+}
+
+#cas div.alert.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #8a6d3b;
+}
+
+#cas div.alert.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #3c763d;
+}
+
+@media (max-width: 500px) {
+
+    #cas #container {
+        width: 100%;
+        padding: 20px;
+        border-radius: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    #cas #container > * {
+        width: 100%;
+    }
+
+}
