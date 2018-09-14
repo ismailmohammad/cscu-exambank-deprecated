@@ -166,6 +166,7 @@ h6 { font-size: 12px; }
 
 #cas .btn-login {
     width: 96px !important;
+    text-align: center;
 }
 
 #cas .btn-change-password {
