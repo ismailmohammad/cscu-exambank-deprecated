@@ -119,6 +119,34 @@ class ExamController {
                 })
         })
     }
+
+    /**
+     * List exams
+     * @param obj
+     * @param args
+     * @param context
+     * @returns {Promise<any>}
+     */
+    static getExam(obj, args, context) {
+        return new Promise((resolve, reject) => {
+            ExamGate.can("list", context, args)
+                .then(() => {
+                    return Exam.findOne({ _id: args.id });
+                })
+                .then(exam => {
+                    if (exam) {
+                        resolve(exam);
+                    } else {
+                        throw new Error("ExamNotFound");
+                    }
+                })
+                .catch(e => {
+                    reject(e);
+                })
+        })
+
+    }
+
 }
 
 module.exports = ExamController;

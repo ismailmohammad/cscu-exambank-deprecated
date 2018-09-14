@@ -5,7 +5,7 @@ type Exam {
     exam_type: String,
     course: String,
     url: String,
-    created_at: Date,
-    updated_at: Date,
+    created_at: String,
+    updated_at: String,
 }
 `;

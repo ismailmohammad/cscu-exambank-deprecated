@@ -4,6 +4,7 @@ const Gate = require('./lib/Gate');
 const ExamCreateRule = require('../rules/ExamCreateRule');
 const ExamUpdateRule = require('../rules/ExamUpdateRule');
 const ExamDeleteRule = require('../rules/ExamDeleteRule');
+const ExamListRule = require('../rules/ExamListRule');
 
 class ExamGate extends Gate {
     /**
@@ -21,6 +22,8 @@ class ExamGate extends Gate {
                 return ExamUpdateRule.can(request, data);
             case "delete":
                 return ExamDeleteRule.can(request, data);
+            case "list":
+                return ExamListRule.can(request, data)
             default:
                 return new Promise((resolve, reject) => reject());
         }
