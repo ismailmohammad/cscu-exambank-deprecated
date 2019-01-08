@@ -1,14 +1,7 @@
 # cscu-exambank
-A Hacker is an Attacker
-
 CSCU ExamBank GraphQL API.
+Now Deprecated, new system design in progress.
 
-THIS REPOSITORY IS UNLICENSED! ANY UNAUTHORIZED USE WILL RESULT IN LEGAL ACTION BEING TAKEN.
-```
-(c) Mohammad Ismail 2018
-// Add your name below if you contribute to this repo
-Author(s): Mohammad Ismail
-```
 
 ### To Run Server
 Create a .env file with the following variables Keep in mind ADMIN_TOKEN/STUDENT_TOKEN are just temporary environment variables and will not be used going onto prod. It is in effect for the mock authentication system prior to implementation with Ryerson SCS.
